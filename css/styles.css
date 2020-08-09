@@ -1,0 +1,263 @@
+/* title  */
+#title {
+  background-image: url(https://cdn.pixabay.com/photo/2016/01/23/03/02/cohesion-1156942__340.jpg);
+  padding: 3% 10%;
+background-size: cover;
+}
+/* title image */
+.title-image {
+  width: 40%;
+  transform: rotate(25deg);
+
+  position: absolute;
+  right: 35%;
+
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+
+h1 {
+font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  color: #fff;
+  padding-bottom: 2rem;
+}
+
+h2 {
+font-family: 'Ubuntu', sans-serif
+}
+
+h3 {
+font-family: 'Recursive', sans-serif;
+}
+ p {
+   color: #fff;
+   line-height: 1.5;
+ }
+
+/* navigation */
+.navbar {
+margin-bottom: 2rem;
+
+}
+
+
+ .navbar-brand {
+   font-family: Ubuntu;
+   font-size: 2.5rem;
+   font-weight: bold;
+ }
+ .nav-item {
+   padding: 0 18px;
+ }
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* download button */
+.download-button {
+  margin: 1% 3% 5% 0;
+}
+
+/* features */
+#features {
+  padding: 7% 15%;
+
+background-color: #ffffdd;
+  position: relative;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.icon {
+  color: #523906;
+margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #535204;
+}
+
+/* testimonials */
+#testimonials {
+
+  text-align: center;
+  background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+color: #fff;
+background-size: cover;
+}
+.testimonial-text{
+  color: #fff;
+}
+.dog-image {
+  width: 50%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.about-dog{
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+  text-align: center;
+ line-height: 1.5rem;
+}
+
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* press */
+#press {
+  background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+padding: 3% 2%;
+
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+  }
+}
+
+/* cta */
+#cta {
+background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  text-align: center;
+
+color: #fff;
+padding: 7% 15%;
+}
+.cta-heading  {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* footer */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+
+}
+.Footer1{
+  color: black;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+/* siberian-husky */
+#siberian-husky {
+  background-size: cover;
+background-image: url(https://images.pexels.com/photos/1040499/pexels-photo-1040499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  text-align: center;
+padding-bottom: 5%;
+color: #fff;
+}
+.siberian1{
+  width: 50%;
+}
+.siberian3 {
+  width: 50%;
+  border-radius: 100%;
+}
+/* testimonial-dog */
+.testimonial-image{
+  width: 80%;
+
+}
+/* siberian title */
+#siberian-title {
+  background-image: url(https://images.pexels.com/photos/3255761/pexels-photo-3255761.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  text-align: center;
+color: black;
+padding: 5% 0;
+}
+.paragraph {
+  line-height: 1.5;
+  font-size: 1rem;
+  padding: 3% 15%;
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+/* about section */
+
+.paragraph2 {
+  line-height: 1.5;
+  font-size: 1rem;
+margin: 0 15%;
+  color: black;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+/* care */
+#care {
+  background-color: #b0a160;
+  text-align: center;
+padding-bottom: 5%;
+color: #fff;
+}
+.care-heading{
+  padding-top: 4%;
+}
+
+.siberian-4 {
+  width: 70%;
+border-radius: 100%;
+padding: 7% 15%;
+}
+/* history */
+#history {
+background-image: url(https://images.pexels.com/photos/3255761/pexels-photo-3255761.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  text-align: center;
+color: black;
+padding: 5% 0;
+background-size: cover;
+}
+
+.siberian-history {
+  border-radius: 100%;
+  width: 50%;
+  padding: 7% 0 ;
+
+}
+
+/* breed-standerd */
+#breed-standerd{
+  background-color:  #b0a160;
+  text-align: center;
+padding-bottom: 5%;
+color: #fff;
+}
+.siberian-image {
+  width: 50%;
+}
+
+width: 100%;
+
+}
